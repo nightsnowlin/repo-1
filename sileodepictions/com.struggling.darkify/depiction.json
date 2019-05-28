@@ -1,10 +1,10 @@
 {
 	"minVersion": "0.1",
 	"headerImage": "https://raw.githubusercontent.com/thestrugglingdoge/repo/gh-pages/assets/Banners/Darkify.png",
-	"tintColor": "#3f4042",
+	"tintColor": "#14caca",
 	"tabs": [
 		{
-			"tabname": "Details",
+			"tabname": "詳情",
 			"views": [
 				{
 					"itemCornerRadius": 6,
@@ -32,7 +32,7 @@
 				},
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "## Darkify\nDarkify is a dark theme for all iOS devices that keeps all icons fimiliar looking but with a dark grey gradient and adds a bit more depth to the icons."
+					"markdown": "插件描述"
 				},
 				{
 					"title": "Suggest icons here!",
@@ -43,32 +43,37 @@
 					"class": "DepictionSeparatorView"
 				},
 				{
-					"title": "Latest Version",
+					"title": "最新版本",
 					"class": "DepictionHeaderView"
 				},
 				{
-					"title": "Version",
+					"title": "版本",
 					"text": "0.2-2",
 					"class": "DepictionTableTextView"
 				},
 				{
-					"title": "Released",
-					"text": "4/30/19",
+					"title": "系統支援",
+					"text": "IOS:12",
 					"class": "DepictionTableTextView"
 				},
 				{
-					"title": "Price",
+					"title": "更新日期",
+					"text": "2019-05-24",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "價錢",
 					"text": "FREE",
 					"class": "DepictionTableTextView"
 				},
 				{
-					"title": "Developer",
-					"text": "StrugglingDoge",
+					"title": "開發人員",
+					"text": "NightSnowLin",
 					"class": "DepictionTableTextView"
 				},
 				{
 					"title": "Github",
-					"action": "https://github.com/StrugglingDoge",
+					"action": "https://github.com/nightsnowlin",
 					"class": "DepictionTableButtonView"
 				},
 				{
@@ -83,7 +88,7 @@
 			"class": "DepictionStackView"
 		},
 		{
-			"tabname": "Changelog",
+			"tabname": "更新紀錄",
 			"views": [
 				{
 					"title": "0.2-2",
@@ -92,12 +97,12 @@
 					"class": "DepictionSubheaderView"
 				},
 				{
-					"markdown": "\t\n\u2022 Adds 35+ new icons.",
+					"markdown": "更新內容描述",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
 				{
-					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 4/30/19</small>",
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">更新日期 2019-05-24</small>",
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				}
